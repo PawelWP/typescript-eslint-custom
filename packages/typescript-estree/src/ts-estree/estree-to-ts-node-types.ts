@@ -276,6 +276,7 @@ export interface EstreeToTsNodeTypes {
 
   // Unused
   [AST_NODE_TYPES.TSAsyncKeyword]: ts.Token<ts.SyntaxKind.AsyncKeyword>;
+  [AST_NODE_TYPES.TSEndpointKeyword]: ts.Token<ts.SyntaxKind.EndpointKeyword>;
   [AST_NODE_TYPES.TSDeclareKeyword]: ts.Token<ts.SyntaxKind.DeclareKeyword>;
   [AST_NODE_TYPES.TSExportKeyword]: ts.Token<ts.SyntaxKind.ExportKeyword>;
   [AST_NODE_TYPES.TSStaticKeyword]: ts.Token<ts.SyntaxKind.StaticKeyword>;

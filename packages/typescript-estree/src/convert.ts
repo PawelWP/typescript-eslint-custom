@@ -999,6 +999,7 @@ export class Converter {
           generator: !!node.asteriskToken,
           expression: false,
           async: hasModifier(SyntaxKind.AsyncKeyword, node),
+          endpoint: hasModifier(SyntaxKind.EndpointKeyword, node),
           params: this.convertParameters(node.parameters),
           body: this.convertChild(node.body) || undefined,
         });
@@ -1254,6 +1255,7 @@ export class Converter {
           generator: !!node.asteriskToken,
           expression: false, // ESTreeNode as ESTreeNode here
           async: hasModifier(SyntaxKind.AsyncKeyword, node),
+          endpoint: hasModifier(SyntaxKind.EndpointKeyword, node),
           body: this.convertChild(node.body),
           range: [node.parameters.pos - 1, node.end],
           params: [],
@@ -1367,6 +1369,7 @@ export class Converter {
           generator: false,
           expression: false, // is not present in ESTreeNode
           async: false,
+          endpoint: false,
           body: this.convertChild(node.body),
           range: [node.parameters.pos - 1, node.end],
         });
@@ -1422,6 +1425,7 @@ export class Converter {
           params: this.convertParameters(node.parameters),
           body: this.convertChild(node.body),
           async: hasModifier(SyntaxKind.AsyncKeyword, node),
+          endpoint: hasModifier(SyntaxKind.EndpointKeyword, node),
           expression: false,
         });
 
@@ -1521,6 +1525,7 @@ export class Converter {
           params: this.convertParameters(node.parameters),
           body: this.convertChild(node.body),
           async: hasModifier(SyntaxKind.AsyncKeyword, node),
+          endpoint: hasModifier(SyntaxKind.EndpointKeyword, node),
           expression: node.body.kind !== SyntaxKind.Block,
         });
 

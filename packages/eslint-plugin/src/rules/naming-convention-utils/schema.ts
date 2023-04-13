@@ -178,12 +178,14 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'global',
         'unused',
         'async',
+        'endpoint',
       ]),
       ...selectorSchema('function', false, [
         'exported',
         'global',
         'unused',
         'async',
+        'endpoint',
       ]),
       ...selectorSchema('parameter', true, ['destructured', 'unused']),
 
@@ -198,6 +200,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'static',
         'override',
         'async',
+        'endpoint',
       ]),
       ...selectorSchema('classProperty', true, [
         'abstract',
@@ -236,6 +239,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'static',
         'override',
         'async',
+        'endpoint',
       ]),
 
       ...selectorSchema('classMethod', false, [
@@ -248,11 +252,13 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'static',
         'override',
         'async',
+        'endpoint',
       ]),
       ...selectorSchema('objectLiteralMethod', false, [
         'public',
         'requiresQuotes',
         'async',
+        'endpoint',
       ]),
       ...selectorSchema('typeMethod', false, ['public', 'requiresQuotes']),
       ...selectorSchema('method', false, [
@@ -265,6 +271,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'static',
         'override',
         'async',
+        'endpoint',
       ]),
       ...selectorSchema('accessor', true, [
         'abstract',

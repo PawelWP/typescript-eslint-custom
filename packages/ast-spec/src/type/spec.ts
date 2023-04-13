@@ -2,6 +2,7 @@ export * from './TSAbstractKeyword/spec';
 export * from './TSAnyKeyword/spec';
 export * from './TSArrayType/spec';
 export * from './TSAsyncKeyword/spec';
+export * from './TSEndpointKeyword/spec';
 export * from './TSBigIntKeyword/spec';
 export * from './TSBooleanKeyword/spec';
 export * from './TSConditionalType/spec';

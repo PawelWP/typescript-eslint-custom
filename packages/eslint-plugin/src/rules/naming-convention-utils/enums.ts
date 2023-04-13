@@ -107,6 +107,7 @@ enum Modifiers {
   override = 1 << 13,
   // class methods, object function properties, or functions that are async via the `async` keyword
   async = 1 << 14,
+  endpoint = 1 << 15,
 
   // make sure TypeModifiers starts at Modifiers + 1 or else sorting won't work
 }

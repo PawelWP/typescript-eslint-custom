@@ -80,6 +80,7 @@ function getGroup(node: TSESTree.TypeNode): Group {
     // These types should never occur as part of a union/intersection
     case AST_NODE_TYPES.TSAbstractKeyword:
     case AST_NODE_TYPES.TSAsyncKeyword:
+    case AST_NODE_TYPES.TSEndpointKeyword:
     case AST_NODE_TYPES.TSDeclareKeyword:
     case AST_NODE_TYPES.TSExportKeyword:
     case AST_NODE_TYPES.TSNamedTupleMember:

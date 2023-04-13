@@ -108,10 +108,10 @@
     "ts-node": "10.7.0",
     "tslint": "^6.1.3",
     "tsx": "^3.12.1",
-    "typescript": ">=3.3.1 <5.1.0"
+    "typescript": "/home/pawel/Desktop/esLintCustom/TypeScript"
   },
   "resolutions": {
-    "typescript": "~5.0.2",
+    "typescript": "/home/pawel/Desktop/esLintCustom/TypeScript",
     "@types/node": "^18.11.9",
     "@jest/create-cache-key-function": "^29",
     "@jest/reporters": "^29",

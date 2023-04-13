@@ -16,6 +16,7 @@ export interface FunctionBase extends BaseNode {
    * ```
    */
   async: boolean;
+  endpoint: boolean;
   /**
    * The body of the function.
    * - For an `ArrowFunctionExpression` this may be an `Expression` or `BlockStatement`.
