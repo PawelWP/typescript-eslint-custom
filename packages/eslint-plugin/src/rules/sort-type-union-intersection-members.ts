@@ -81,6 +81,7 @@ function getGroup(node: TSESTree.TypeNode): Group {
     case AST_NODE_TYPES.TSAbstractKeyword:
     case AST_NODE_TYPES.TSAsyncKeyword:
     case AST_NODE_TYPES.TSEndpointKeyword:
+    case AST_NODE_TYPES.TSProcessKeyword:
     case AST_NODE_TYPES.TSDeclareKeyword:
     case AST_NODE_TYPES.TSExportKeyword:
     case AST_NODE_TYPES.TSNamedTupleMember:

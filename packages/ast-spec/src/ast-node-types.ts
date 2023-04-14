@@ -100,6 +100,7 @@ export enum AST_NODE_TYPES {
   TSAsExpression = 'TSAsExpression',
   TSAsyncKeyword = 'TSAsyncKeyword',
   TSEndpointKeyword = 'TSEndpointKeyword',
+  TSProcessKeyword = 'TSProcessKeyword',
   TSBigIntKeyword = 'TSBigIntKeyword',
   TSBooleanKeyword = 'TSBooleanKeyword',
   TSCallSignatureDeclaration = 'TSCallSignatureDeclaration',

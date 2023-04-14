@@ -186,6 +186,7 @@ const additionalKeys: AdditionalKeys = {
   TSAsExpression: SharedVisitorKeys.TypeAssertion,
   TSAsyncKeyword: [],
   TSEndpointKeyword: [],
+  TSProcessKeyword: [],
   TSBigIntKeyword: [],
   TSBooleanKeyword: [],
   TSCallSignatureDeclaration: SharedVisitorKeys.FunctionType,

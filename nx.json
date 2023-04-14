@@ -14,14 +14,7 @@
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
-    },
-    "test": {
-      "inputs": [
-        "default",
-        "{workspaceRoot}/jest.config.js",
-        "{workspaceRoot}/jest.config.base.js"
-      ],
-      "outputs": ["{projectRoot}/coverage"]
+    }
     },
     "lint": {
       "inputs": [
@@ -29,8 +22,7 @@
         "{workspaceRoot}/.eslintrc.js",
         "{workspaceRoot}/.eslintignore"
       ]
-    }
-  },
+    },
   "namedInputs": {
     "default": [
       "{projectRoot}/**/*",

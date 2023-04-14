@@ -39,7 +39,6 @@
     "lint-markdown": "markdownlint \"**/*.md\" --config=.markdownlint.json --ignore-path=.markdownlintignore",
     "lint": "nx run-many --target=lint --parallel",
     "postinstall": "yarn tsx ./tools/postinstall.ts",
-    "pre-commit": "yarn lint-staged",
     "start": "nx run website:start",
     "test": "nx run-many --target=test --parallel",
     "test-integration": "yarn jest -c ./tests/integration/jest.config.js",

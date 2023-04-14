@@ -354,6 +354,7 @@ interface RuleListener {
   TSAsExpression?: RuleFunction<TSESTree.TSAsExpression>;
   TSAsyncKeyword?: RuleFunction<TSESTree.TSAsyncKeyword>;
   TSEndpointKeyword?: RuleFunction<TSESTree.TSEndpointKeyword>;
+  TSProcessKeyword?: RuleFunction<TSESTree.TSProcessKeyword>;
   TSBigIntKeyword?: RuleFunction<TSESTree.TSBigIntKeyword>;
   TSBooleanKeyword?: RuleFunction<TSESTree.TSBooleanKeyword>;
   TSCallSignatureDeclaration?: RuleFunction<TSESTree.TSCallSignatureDeclaration>;

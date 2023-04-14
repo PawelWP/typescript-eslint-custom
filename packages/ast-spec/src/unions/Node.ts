@@ -124,6 +124,7 @@ import type { TSAnyKeyword } from '../type/TSAnyKeyword/spec';
 import type { TSArrayType } from '../type/TSArrayType/spec';
 import type { TSAsyncKeyword } from '../type/TSAsyncKeyword/spec';
 import type { TSEndpointKeyword } from '../type/TSEndpointKeyword/spec';
+import type { TSProcessKeyword } from '../type/TSProcessKeyword/spec';
 import type { TSBigIntKeyword } from '../type/TSBigIntKeyword/spec';
 import type { TSBooleanKeyword } from '../type/TSBooleanKeyword/spec';
 import type { TSConditionalType } from '../type/TSConditionalType/spec';
@@ -264,6 +265,7 @@ export type Node =
   | TSAsExpression
   | TSAsyncKeyword
   | TSEndpointKeyword
+  | TSProcessKeyword
   | TSBigIntKeyword
   | TSBooleanKeyword
   | TSCallSignatureDeclaration

@@ -179,6 +179,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'unused',
         'async',
         'endpoint',
+        'process',
       ]),
       ...selectorSchema('function', false, [
         'exported',
@@ -186,6 +187,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'unused',
         'async',
         'endpoint',
+        'process',
       ]),
       ...selectorSchema('parameter', true, ['destructured', 'unused']),
 
@@ -201,6 +203,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'override',
         'async',
         'endpoint',
+        'process',
       ]),
       ...selectorSchema('classProperty', true, [
         'abstract',
@@ -240,6 +243,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'override',
         'async',
         'endpoint',
+        'process',
       ]),
 
       ...selectorSchema('classMethod', false, [
@@ -253,12 +257,14 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'override',
         'async',
         'endpoint',
+        'process',
       ]),
       ...selectorSchema('objectLiteralMethod', false, [
         'public',
         'requiresQuotes',
         'async',
         'endpoint',
+        'process',
       ]),
       ...selectorSchema('typeMethod', false, ['public', 'requiresQuotes']),
       ...selectorSchema('method', false, [
@@ -272,6 +278,7 @@ const SCHEMA: JSONSchema.JSONSchema4 = {
         'override',
         'async',
         'endpoint',
+        'process',
       ]),
       ...selectorSchema('accessor', true, [
         'abstract',
